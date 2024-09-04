@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>RX97 Medieval Vehicle: yuack pulled cart</name>
+    <author>RangelX97</author>
+    <url></url>
+    <description>
+	s
+	A simple cart for medieval vehicle framework.
+	Commisioned by Darkspectret90
+	
+
+
+	</description>
+    <packageId>RX97.Medieval.Yack.Cart</packageId>
+    <supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+		<li>
+			<packageId>SmashPhil.VehicleFramework</packageId>
+			<displayName>Vehicle Framework</displayName>
+			<downloadUrl>https://github.com/SmashPhil/Vehicles/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>OskarPotocki.VanillaVehiclesExpanded</li>
+		<li>DankPyon.Medieval.Overhaul</li>
+	</loadAfter>
+</ModMetaData>

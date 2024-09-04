@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>RX97_HorseCart_Blueprint</defName>
+		<label>Horse cart </label>
+		<description>A cart powered by animal muscle</description>
+		<designationCategory>VF_Vehicles</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/RX97_HorseCart/RX97_HorseCart</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,10)</drawSize>
+		</graphicData>
+		
+		<researchPrerequisites>
+			<li>RX97_TradeCarts</li>
+		</researchPrerequisites>
+
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		
+		<size>(4,7)</size>
+		<uiIconScale>1</uiIconScale>
+				
+		<costList>
+			<WoodLog>600</WoodLog>
+			<Cloth>50</Cloth>			
+			<Steel>70</Steel>			
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
+		
+		<thingToSpawn>RX97_HorseCart</thingToSpawn>
+	
+		
+	</Vehicles.VehicleBuildDef>
+</Defs>

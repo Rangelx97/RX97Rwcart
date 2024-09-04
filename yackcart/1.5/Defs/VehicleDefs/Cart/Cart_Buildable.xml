@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>RX97_Cammel_Blueprint</defName>
+		<label>Trade Cart</label>
+		<description>Pulling this huge cart is a 2 person job</description>
+		<designationCategory>VF_Vehicles</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/RX97_Cammel/RX97_Cammel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		
+		<researchPrerequisites>
+			<li>RX97_TradeCarts</li>
+		</researchPrerequisites>
+
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+			<Flammability>1</Flammability>
+		</statBases>
+		
+		<size>(3,5)</size>
+		<uiIconScale>1</uiIconScale>
+				
+		<costList>
+			<WoodLog>400</WoodLog>			
+			<Steel>50</Steel>			
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
+		
+		<thingToSpawn>RX97_Cammel</thingToSpawn>
+		
+		
+	</Vehicles.VehicleBuildDef>
+</Defs>
